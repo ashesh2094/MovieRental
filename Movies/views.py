@@ -3,7 +3,6 @@ from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.utils.decorators import method_decorator
 from django.views.generic import TemplateView
-from pip._vendor.requests import Response
 from rest_framework import viewsets
 from Customer.models import Customer
 from rest_framework.views import APIView
