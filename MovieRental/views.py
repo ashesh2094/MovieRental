@@ -10,6 +10,7 @@ from Movies.models import Movies
 from Movies.serializers import MoviesSerializer
 
 # This is the function for homepage
+#This is my firsr branch commit
 def homePage(request):
     if request.method == 'POST':
         username = request.POST['username']
